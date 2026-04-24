@@ -1,8 +1,8 @@
-# 🧮 Simple Calculator
+#  Simple Calculator
 
 A clean, functional calculator built with **HTML, CSS, and JavaScript** — no frameworks, no libraries.
 
-## ✨ Features
+##  Features
 
 - Basic operations: Addition, Subtraction, Multiplication, Division
 - Decimal point support
@@ -35,13 +35,13 @@ calculator/
 └── README.md    — This file
 ```
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone or download this repository
 2. Open `index.html` in any browser
 3. Done!
 
-## 🧠 JavaScript Concepts Used
+##  JavaScript Concepts Used
 
 - Variables & State management
 - String methods (`includes`, `slice`, `+=`)
@@ -52,7 +52,7 @@ calculator/
 - Event listeners (`addEventListener`)
 - Keyboard events (`keydown`)
 
-## 📸 Preview
+##  Preview
 
 ![Calculator Preview](preview.png)
 
