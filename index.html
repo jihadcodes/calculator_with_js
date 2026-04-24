@@ -1,11 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <div class="container">
+    <div class="calculator">
+
+      <!-- Display -->
+      <div class="display">
+        <div class="expression" id="expression"></div>
+        <div class="result" id="result">0</div>
+      </div>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <button class="btn special" id="ac">AC</button>
+        <button class="btn special" id="toggle">+/-</button>
+        <button class="btn special" id="percent">%</button>
+        <button class="btn operator" id="divide">÷</button>
+
+        <button class="btn" id="seven">7</button>
+        <button class="btn" id="eight">8</button>
+        <button class="btn" id="nine">9</button>
+        <button class="btn operator" id="multiply">×</button>
+
+        <button class="btn" id="four">4</button>
+        <button class="btn" id="five">5</button>
+        <button class="btn" id="six">6</button>
+        <button class="btn operator" id="minus">−</button>
+
+        <button class="btn" id="one">1</button>
+        <button class="btn" id="two">2</button>
+        <button class="btn" id="three">3</button>
+        <button class="btn operator" id="plus">+</button>
+
+        <button class="btn zero" id="zero">0</button>
+        <button class="btn" id="dot">.</button>
+        <button class="btn equals" id="equals">=</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
